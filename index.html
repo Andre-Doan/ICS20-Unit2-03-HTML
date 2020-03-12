@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="description" content=" My first webpage, with image">
+  <meta name="keyword"content="MTHS,website">
+  <meta name="author"content="Andre Doan">
+  <meta name="viewport"content="width=device-width, intial scale=1.0">  
+  <title> Andre's Webpage full of Buttons </title>
+  </head>
+  <body id="myfunction">
+  <script src="/path/to/javajavajavachuuuu.js"></script>
+  <h1>More Buttons on my Gluttons</h1>
+  <p>My name is Andre and I like buttons, do you like buttons. If you do like buttons 
+  than you have to Hit Dat Like Button down below, Hit Dat Little BELLLLL!!!! to turn on 
+  post notifications and remember to subscribe.HAPPY BIRTHDAY!!</p>
+  <img id="Schwarzencookie" src="./images/cookie.jpg">
+  <button onclick="myfunction2()">Cookieman</button>
+  <button onclick="myfunction3()">Put The Cookie Down</button>
+  <button onclick="myfunction()">Press me to see a magic trick</button>
+  <button type="button" onclick="myfunction1()">Try it</button>
+  <button id="myBtn">Try the event button</button>
+  <p id="Coronavirus"></p>
+  <p id="demo"></p>
+  <script>
+  function myfunction() { 
+    document.getElementById("myfunction").style.backgroundColor="blue"
+   }
+   function myfunction1() {
+     document.getElementById("Coronavirus").textContent="Put The Cookie Down!!"
+   }
+  function myfunction2() {
+    document.getElementById("Schwarzencookie").src='./images/cookie.jpg'
+  }
+  function myfunction3() {
+    document.getElementById("Schwarzencookie").src='./images/putthecookiedown.jpg'
+  }
+  document.getElementById("myBtn").addEventListener("click", displayDate);
+  function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+  }
+    
+     
+     
+   </script>
+     
+  </body>
+</html>
